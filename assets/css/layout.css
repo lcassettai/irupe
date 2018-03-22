@@ -1,0 +1,56 @@
+body{
+	background:#f2f2f2 !important;
+	font-family: 'Open Sans', Arial, helvetica, sans-serif;
+}
+
+main{
+	padding-bottom: 100px;
+}
+
+.navbar{
+	background: #008ecd;
+
+}
+
+.navbar a{
+	color:#fff !important;
+	font-size:20px;
+}
+
+.navbar-light .navbar-toggler {
+    color: rgba(113, 0, 0, 0.5);
+    border-color: rgba(0,0,0,.1);
+    background: white;
+}
+
+#logo-nav-unam{
+	width:50px;
+}
+
+footer{
+	background-color: white;
+	position: fixed;
+	bottom:0px;
+	width: 100vw;
+	margin-top: 10px;
+	border-top:2px solid #008ecd;
+}
+
+.grafico{
+	background-color: #ffffff;
+	padding:10px;
+	margin:10px;
+	-webkit-box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
+
+}
+
+#form-contacto{
+    margin-top:10%;
+}
+
+#barra-superior{
+	background: #fff;
+
+}
