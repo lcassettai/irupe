@@ -1,16 +1,16 @@
-<?php 
+<?php
 	defined('BASEPATH') OR exit('No direct script access allowed');
 ?>
 
 <main class='container'>
-	
+
 	<div class="row justify-content-md-center">
 		<div class="col-md-6">
 
 		<section id="form-contacto">
 		<h2 class='text-center'>Contacto</h2>
 			<?php echo validation_errors(); ?>
-			<?php echo form_open('news/create'); ?>
+			<?php echo form_open('Contacto/enviar'); ?>
 				<div class="form-group">
 				    <label for="nombre">Nombre</label>
 				    <input type="text" class="form-control" id="nombre" aria-describedby="emailHelp" >
@@ -26,9 +26,9 @@
 				    <label for="mensaje">Mensaje</label>
 				    <textarea class="form-control" id="mensaje" rows="3"></textarea>
 				  </div>
-				  <button type="submit" class="btn btn-success float-right">Enviar</button>
+				  <button type="submit" class="btn btn-contacto-per btn-block">Enviar</button>
 			</form>
 		</section>
 		</div>
-	</div>	
+	</div>
 </main>

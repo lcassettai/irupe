@@ -1,4 +1,4 @@
-<?php 
+<?php
 	defined('BASEPATH') OR exit('No direct script access allowed');
 
 	class Contacto extends CI_Controller{
@@ -9,6 +9,10 @@
 			$this->load->view('templates/header');
 			$this->load->view('contacto/index');
 			$this->load->view('templates/footer');
+		}
+
+		public function enviar(){
+			echo "Enviado correctamente";
 		}
 	}
 ?>
