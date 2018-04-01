@@ -19,19 +19,19 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="<?php echo site_url('home');?>">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="<?php echo base_url('home');?>">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="<?php echo site_url('votacion');?>">Votacion</a>
+              <a class="nav-link" href="<?php echo base_url('votacion');?>">Votacion</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="<?php echo site_url('candidatos');?>">Candidatos</a>
+              <a class="nav-link" href="<?php echo base_url('candidatos');?>">Candidatos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="<?php echo site_url('DondeVoto');?>">Donde voto</a>
+              <a class="nav-link" href="<?php echo base_url('DondeVoto');?>">Donde voto</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="<?php echo site_url('contacto');?>">Contacto</a>
+              <a class="nav-link" href="<?php echo base_url('contacto');?>">Contacto</a>
             </li>
           </ul>
         </div>

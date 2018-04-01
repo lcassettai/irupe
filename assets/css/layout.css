@@ -5,7 +5,7 @@ body{
 
 main{
 	margin-top:10px;
-	padding-bottom: 100px;
+	padding-bottom: 50px;
 	padding-top:20px;
 }
 
@@ -36,7 +36,11 @@ footer{
 	width: 100vw;
 	margin-top: 10px;
 	color:white;
-	letter-spacing: 2px;
+	padding-top: 0.2rem;
+	padding-bottom: 0.2rem;
+	padding-right: 1rem;
+	letter-spacing: 1px;
+	font-size: 12px;
 	border-top:2px solid #008ecd;
 }
 
@@ -71,5 +75,19 @@ footer{
 
 #barra-superior{
 	background: #fff;
+}
 
+@media only screen and (max-width: 600px) {
+	 footer {
+			 font-size: 9px;
+			 text-align: center;
+			 position: initial;
+			 margin-top: 0px;
+			 padding-top: 1rem;
+			 padding-bottom: 1rem;
+	 }
+
+	 main{
+		 padding-bottom: 10px;
+	 }
 }

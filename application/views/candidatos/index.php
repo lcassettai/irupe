@@ -1,6 +1,6 @@
 <?php defined('BASEPATH') OR exit('Not direct script allowed')?>
 
-<main>
+<main class='container'>
 	<h2 class='text-center'>Candidatos</h2>
 	<div class="row justify-content-md-center">
 		<div class="col-sm-3">

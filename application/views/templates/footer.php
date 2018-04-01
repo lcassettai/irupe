@@ -1,6 +1,6 @@
 <footer >
-	<div class="text-center">
-		<p>Sub Programa de Información <b>Area de Sistemas</b> - 2018</p>
+	<div class="text-right">
+		<span>Sub Programa de Información <b>Area de Sistemas</b></span>
 	</div>
 </footer>
 
