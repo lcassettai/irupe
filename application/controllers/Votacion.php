@@ -20,9 +20,16 @@ class Votacion extends CI_Controller {
 	 */
 	public function index()
 	{
-		$head_data = array('title' => 'Votacion');
+		/*$head_data = array('title' => 'Votacion');
 		$this->load->view('templates/header',$head_data);
 		$this->load->view('votacion/index');
+		$this->load->view('templates/footer');*/
+	}
+
+	public function rector_vice(){
+		$head_data = array('title' => 'Resultados RECTOR - VICE RECTOR ');
+		$this->load->view('templates/header',$head_data);
+		$this->load->view('votacion/rector_vice');
 		$this->load->view('templates/footer');
 	}
 }

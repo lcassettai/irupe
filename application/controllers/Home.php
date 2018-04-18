@@ -19,8 +19,11 @@ class Home extends CI_Controller {
 	 * @see https://codeigniter.com/user_guide/general/urls.html
 	 */
 	public function index()
-	{
-		$head_data = array('title' => 'home');
+	{	
+		$json = file_get_contents('http://admin:admin@10.10.10.19:2022/irupe/rest/votos/claustros');
+		$obj = json_decode($json);
+
+		$head_data = array('title' => 'Home');
 		$this->load->view('templates/header',$head_data);
 		$this->load->view('home_view');
 		$this->load->view('templates/footer');

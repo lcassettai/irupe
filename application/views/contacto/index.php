@@ -2,13 +2,12 @@
 	defined('BASEPATH') OR exit('No direct script access allowed');
 ?>
 
-<main class='container'>
+<main class='container-fluid'>
 
-	<div class="row justify-content-md-center">
-		<div class="col-md-6">
+	<div class="row">
+		<div class="col-md-6 col-md-offset-3">
 
 		<section id="form-contacto">
-		<h2 class='text-center'>Contacto</h2>
 			<?php echo validation_errors(); ?>
 			<?php echo form_open('Contacto/enviar'); ?>
 				<div class="form-group">
