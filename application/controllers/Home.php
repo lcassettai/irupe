@@ -20,8 +20,8 @@ class Home extends CI_Controller {
 	 */
 	public function index()
 	{	
-		$json = file_get_contents('http://admin:admin@10.10.10.19:2022/irupe/rest/votos/claustros');
-		$obj = json_decode($json);
+		// $json = file_get_contents('http://admin:admin@10.10.10.19:2022/irupe/rest/votos/claustros');
+		// $obj = json_decode($json);
 
 		$head_data = array('title' => 'Home');
 		$this->load->view('templates/header',$head_data);
